@@ -1,0 +1,44 @@
+<!-- <table>
+  <tr>
+    <td>Name</td>
+    <td>Email</td>
+    <td>Note</td>
+  </tr>
+  <tr *ngFor="let user of userData">
+    <td>{{ user.name }}</td>
+    <td>{{ user.email }}</td>
+    <td>{{ user.note }}</td>
+  </tr>
+</table>
+
+<app-data></app-data> -->
+<!-- <nav>
+  <a href="#"><h3>Employee Application</h3></a>
+  <div class="right">
+    <ul>
+      <li>
+        <a
+          *ngIf="!_auth.loggedIn()"
+          routerLink="/login"
+          routerLinkActive="active"
+          >Login</a
+        >
+      </li>
+      <li>
+        <a
+          *ngIf="!_auth.loggedIn()"
+          routerLink="/register"
+          routerLinkActive="active"
+          >Register</a
+        >
+      </li>
+      <li>
+        <a *ngIf="_auth.loggedIn()" (click)="_auth.logout()">Logout</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<router-outlet></router-outlet> -->
+
+<app-emp></app-emp>
